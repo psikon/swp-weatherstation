@@ -1,5 +1,7 @@
 package com.swp.weatherstation.model.json;
 
+import java.util.List;
+
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.springframework.stereotype.Component;
 
@@ -28,6 +30,9 @@ public class Weather {
 
     @JsonProperty("sys")
     private Sys sys;
+
+    @JsonProperty("weather")
+    private List<Description> descriptionList;
 
     public Weather() {
 
@@ -100,5 +105,13 @@ public class Weather {
 
     public void setSys(Sys sys) {
         this.sys = sys;
+    }
+
+    public List<Description> getDescriptionList() {
+        return descriptionList;
+    }
+
+    public void setDescriptionList(List<Description> descriptionList) {
+        this.descriptionList = descriptionList;
     }
 }

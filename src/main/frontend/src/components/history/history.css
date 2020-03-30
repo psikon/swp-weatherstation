@@ -1,0 +1,15 @@
+
+.history__charts {
+    width: 80%;
+    margin: 16px 24px;
+    display: inline-flex;
+}
+
+.charts {
+    border: 1px solid #eee;
+    margin: 16px 8px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 16px;
+}
+

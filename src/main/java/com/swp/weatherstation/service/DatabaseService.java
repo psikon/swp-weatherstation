@@ -1,14 +1,15 @@
-package com.swp.weatherstation.database;
+package com.swp.weatherstation.service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import com.swp.weatherstation.database.WeatherRepository;
 import com.swp.weatherstation.model.entity.WeatherEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class DatabaseController {
+public class DatabaseService {
 
     @Autowired
     private WeatherRepository repository;

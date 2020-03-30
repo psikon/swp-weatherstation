@@ -1,4 +1,4 @@
-package com.swp.weatherstation.utils;
+package com.swp.weatherstation;
 
 public class WeatherConstants {
 

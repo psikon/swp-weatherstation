@@ -1,0 +1,23 @@
+
+.weatherInput__text {
+    border: 1px solid #004561;
+    margin: 2px 5px;
+    padding: 0 5px;
+    height: 30px;
+    font-size:1.1rem;
+    border-radius: 10px
+}
+  
+.weatherInput__button {
+    background-color: #004561;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px
+  }
+  
+  .weatherInput__button:hover{
+    background-color: #61cbf5;
+    color: white;
+  }

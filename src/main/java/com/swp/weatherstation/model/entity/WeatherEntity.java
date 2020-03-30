@@ -7,6 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Transient;
 
 import org.springframework.stereotype.Component;
 
@@ -48,6 +49,12 @@ public class WeatherEntity {
     private int sunrise;
 
     private int sunset;
+
+    @Transient
+    private String description;
+
+    @Transient
+    private String icon;
 
     public String getName() {
         return name;
@@ -159,6 +166,22 @@ public class WeatherEntity {
 
     public void setSunset(int sunset) {
         this.sunset = sunset;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getIcon() {
+        return icon;
+    }
+
+    public void setIcon(String icon) {
+        this.icon = icon;
     }
 
     public String dateToString(long intTime) {
