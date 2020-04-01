@@ -53,7 +53,7 @@
 
 @media(min-width: 900px) {
     .weather {
-        width: 30%;
+        width: 40%;
         display: inline-flex;
     }
 

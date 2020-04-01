@@ -38,41 +38,10 @@ body {
   color: lightsteelblue;
   font-weight: bold;
   font-size: 1.5rem;
+  float: left;
 }
 .main-header__brand p {
   margin: 0px
-}
-
-.main-nav {
-  display: inline-block;
-  text-align: right;
-  vertical-align: middle;
-  width: calc(100% - 122px) 
-}
-
-.main-nav__items {
-  padding: 0px;
-  margin: 0px;
-  list-style: none;
-}
-
-.main-nav__item {
-  display: inline-block;
-  text-decoration: none;
-  margin: 0 1rem;
-}
-
-.main-nav__item a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  padding: 0.5rem 0;
-}
-
-.main-nav__item a:hover,
-.main-nav__item a:active{
-  color: white;
-  border-bottom: 5px solid white;
 }
 
 .search {

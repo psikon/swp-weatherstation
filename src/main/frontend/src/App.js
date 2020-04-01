@@ -55,16 +55,6 @@ class App extends Component {
           <div className="main-header__brand">
             <p >SWP-4</p>
           </div>
-          <nav className="main-nav">
-            <ul className="main-nav__items">
-              <li className="main-nav__item">
-                <a href="#search">SEARCH</a>
-              </li>
-              <li className="main-nav__item">
-                <a  href="#history">HISTORY</a>
-              </li>
-            </ul>
-          </nav>
         </header>
         <section id="search">
           <div className="search">
